@@ -3,7 +3,7 @@ import Classes
 
 lake = Classes.Lake()
 
-bot = telebot.TeleBot('1458109890:AAFXfwEAZLm0UCO_kWOAz9kNCE9GVW_Nqvk') // plz dont steal this token
+bot = telebot.TeleBot('1458109890:AAFXfwEAZLm0UCO_kWOAz9kNCE9GVW_Nqvk') #  plz dont steal this token
 state_of_user = {}  # здесь словать глобальный, а нужен в рамках сессии.
 states = {'знает правила': 'Выбери метод производства на этот ход: грязный/чистый',
           'chosen_way': '''Желаете ли вы что-то купить?
